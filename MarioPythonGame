@@ -3,6 +3,7 @@ import sys
 
 pygame.init()
 
+# Set the dimension of the game windows 
 WINDOW_WIDTH = 1200
 WINDOW_HEIGHT = 600
 FPS = 20
@@ -18,6 +19,7 @@ fire_img_rect.left = 0
 CLOCK = pygame.time.Clock()
 font = pygame.font.SysFont('forte', 20)
 
+# dimension is set into the game canvas
 canvas = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption('Mario')
 
@@ -245,6 +247,6 @@ def game_loop():
             pygame.display.update()
             CLOCK.tick(FPS)
 
-
+# Init game
 start_game()
 
