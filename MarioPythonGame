@@ -1,7 +1,7 @@
 import pygame
 import sys
 
-#what is python init?
+# what is python init?
 pygame.init()
 
 # Set the dimension of the game windows 
@@ -251,5 +251,6 @@ def game_loop():
 # Init game
 # adding another comment
 # added one more comment
+
 start_game()
 
