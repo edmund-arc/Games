@@ -1,10 +1,10 @@
 import pygame
 import sys
 
-# what is python init?
+
 pygame.init()
 
-# Set the dimension of the game windows 
+
 WINDOW_WIDTH = 1200
 WINDOW_HEIGHT = 600
 FPS = 20
@@ -248,9 +248,8 @@ def game_loop():
             pygame.display.update()
             CLOCK.tick(FPS)
 
-# Init game
-# adding another comment
-# added one more comment
+
+
 
 start_game()
 
