@@ -1,6 +1,6 @@
 import pygame
 import sys
-# editing with comment
+# continue to update for leisure
 
 pygame.init()
 
