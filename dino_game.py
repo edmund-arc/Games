@@ -4,6 +4,7 @@ import pygame
 import random
 from pygame import *
 
+#added this game on 08-Jan-2024
 pygame.init()
 
 screen_size_display = (width_screen, height_screen) = (600, 150)
